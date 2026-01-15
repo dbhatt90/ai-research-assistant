@@ -6,7 +6,8 @@ class Settings(BaseSettings):
 
     #LLM Configuration
     groq_api_key:str
-    llm_model:str = "llama-3.3-70b-versatile"
+    google_api_key:str
+    llm_model:str = "gemini-2.5-flash"
     llm_temperature:float = 0.7
 
     # Agent Configuration
