@@ -30,3 +30,5 @@ python-multipart
 pytest
 black
 flake8
+# PDF Processing
+PyPDF2==3.0.1
